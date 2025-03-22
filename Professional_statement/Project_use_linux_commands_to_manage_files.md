@@ -21,7 +21,7 @@ The organization does not allow others to have write access to any files. Based 
 ![All files including hidden files](https://github.com/user-attachments/assets/0befe1fd-967d-428d-a60a-68638d8fee03)
 
 - As you can see in the above screenshot, the permission is set as ``rw--w----``. I then proceeded to modify the permission based on the appropriate permission using ``chmod``
-- I typed ``chmod u-w,g-w+r .project_x.txt`` and clicked on Enter
+- I typed ``chmod u-w,g-w,g+r .project_x.txt`` and clicked on Enter
 - Lastly, I typed ``ls -la`` to view the modified permissions which was set as ``r--r-----`` allowing both the user and the group to only read the file.
 ### Step 4: Change Directory Permissions
 The files and directories in the projects directory belong to the ``researcher2`` user. ``Only researcher2`` should be allowed to access the drafts directory and its contents. Here are the steps I followed to modify these permissions.
