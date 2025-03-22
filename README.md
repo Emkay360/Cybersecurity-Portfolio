@@ -32,3 +32,6 @@ The files and directories in the projects directory belong to the ``researcher2`
 - First I typed in ``ls -l`` to reveal all permissions and the permissions were set as ``rwx--x---``
 - I then modified it by typing ``chmod g-x drafts`` to remove the execute permission from the group and pressed Enter.
 - Lastly, I typed ``ls -l`` to view the modified and the result was ``rwx------`` allowing users to read, write, and modify the directory.
+
+## Summary
+This project describes how to identify and manage files using Linux commands. Also, it shows what permissions are and how to list those permissions including those hidden permissions. Lastly, permissions are modified appropriately for authorized users.
