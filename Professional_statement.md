@@ -1,7 +1,7 @@
 # Cybersecurity-Portfolio
 ## Professional Statement
  As a cybersecurity professional, I protect organizations from evolving cyber threats while upholding integrity and compliance with legal standards. With strong analytical and problem-solving skills, I specialize in security monitoring, threat analysis, and incident response. My expertise includes identifying vulnerabilities, implementing security controls, and educating stakeholders on cyber risks. I am proficient in leveraging security tools such as SIEMs, SQL, Python, IDS/IPS, and firewalls to detect and mitigate threats effectively. Passionate about continuous learning, I stay updated on emerging attack vectors and best practices to enhance security resilience.
-## Project description (Linux Commands to Manage Files)
+## Introduction to Linux (Linux Commands to Manage Files)
 This project aims to examine and manage file permissions in the file system. As a security analyst in the research team, I am to determine if the file permission matches the authorization given. If they don't match, then I will modify the permissions to authorize the appropriate user.
 ### Step 1: Describe Permission String
 ![File permissions](https://github.com/user-attachments/assets/a5313aa5-c2c6-4264-85a2-af522a7272b0)
@@ -35,7 +35,7 @@ The files and directories in the projects directory belong to the ``researcher2`
 
 ## Summary
 This project describes how to identify and manage files using Linux commands. Also, it shows what permissions are and how to list those permissions including those hidden permissions. Lastly, permissions are modified appropriately for authorized users.
-## Project Description
+## Introduction to SQL (Apply Filters to SQL Queries)
 My job in my organization involves investigating security issues to help keep the system secure. My task is to examine the organization's data to retrieve records from different datasets and investigate potential security issues. Below are the steps I followed:
 ### Task 1. Retrieve after-hours failed login attempts
 I discovered a potential security issue that occurred after business hours, and I needed to filter out the information querying the ``log_in_attempt_`` table to find out all unsuccessful login attempts after business hours.
@@ -75,3 +75,13 @@ The team needs to make one more update to employee machines. The employees who a
 The first line represents the query that selects all columns in the table and the next line shows from which table to select. I know that the team wants me not to include the ``IT department`` on the table. To do that, I included the ``NOT`` operator to filter the ``IT department`` out. 
 ## Conclusion
 I have used different SQL queries to retrieve information from the employees' table to be able to examine different security issues. The first step was to be able to use the ``SELECT`` and ``FROM`` queries to understand which tables and columns I was filtering from. I also used operators like ``NOT``, ``OR``, and ``AND`` to be able to filter information in some columns which has helped me to identify potential security threats and ways to keep the system secure.
+## Introduction to Python (Update a file through a Python algorithm)
+### Project description
+At my organization, access to restricted content is controlled with an allow list of IP addresses. The ``allow_list.txt`` file identifies these IP addresses. A separate remove list identifies IP addresses that should no longer have access to this content. I created an algorithm to automate updating the ``allow_list.txt`` file and removing these IP addresses that should no longer have access. 
+### Open the file that contains the allow list
+For the first part of the algorithm, I opened the ``allow_list.txt`` file. First, I assigned this file name as a string to the import_file variable:
+``
+#Assign 'import_file' to the name of the file
+
+import_file = "allow_list.txt"
+``
